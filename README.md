@@ -1,0 +1,11 @@
+This project focuses on the development of machine learning models to predict the severity of anxiety attacks, addressing a key challenge for health insurers facing rising costs from mental health claims. The study draws on a dataset of patients with a history of anxiety, incorporating daily habits, lifestyle choices, and physiological indicators to assess individual risk levels.
+
+The work begins with an exploratory data analysis (EDA), which highlights crucial factors such as stress level, sleep quality, caffeine intake, family history, physical activity, and dizziness as strong predictors of anxiety severity. These features were tested for statistical significance through ANOVA and chi-square analyses, confirming their relevance in distinguishing between low, medium, and high-severity cases.
+
+Three classification models were developed and compared: Logistic Regression (baseline for interpretability), Random Forest (non-linear interactions and feature importance), and XGBoost (high-performance gradient boosting). To better support business objectives, the models were optimized for weighted recall, prioritizing the identification of medium- and high-severity cases, where misclassification would have the highest impact.
+
+The Random Forest model emerged as the preferred choice, balancing performance with the ability to detect severe cases more reliably. SHAP analysis confirmed the importance of features such as breathing rate, stress, family history, sleep, medication, and activity levels.
+
+From a business perspective, the project demonstrates how predictive modeling can shift healthcare from costly interventions toward preventive care. By identifying individuals at risk of severe anxiety episodes early, insurers can reduce emergency visits, therapy costs, and disability claims while offering clients tailored preventive programs.
+
+Finally, the project provides actionable recommendations: interventions such as mindfulness and breathing exercises, resilience training, physical activity incentives, and sleep improvement programs. These measures highlight how machine learning can directly inform insurance strategies and contribute to both financial efficiency and improved mental health outcomes.
